@@ -1,0 +1,24 @@
+.carousel
+  text-align: left
+  max-width 580px
+  margin 2em auto
+  &-content
+    &[open]
+      .carousel
+        &-header
+          border none
+          &::-webkit-details-marker
+            color var(--softRed)
+  &-header
+    padding 1.5em 0
+    border-bottom 1px solid var(--lightGRay)
+    font-size .9em
+
+    &:focus
+      outline 0
+    &::-webkit-details-marker
+      color var(--softBlue)
+      float right
+  @media screen and (min-width: 1024px)
+    border-top 1px solid var(--lightGRay)
+
