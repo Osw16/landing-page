@@ -9,6 +9,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
   <link rel="stylesheet" href="css/styles.css">
   <title>Landing page</title>
 
@@ -64,6 +66,7 @@
 
 
   <section class="hero">
+
     <div class="u-wrapper">
       <div class="hero-grid">
         <div class="hero-imageContainer">
@@ -223,78 +226,127 @@
 
 
   <section class="download">
-    <h2 class="u-h2">
-      About Us
-    </h2>
-    <div class="about-wrapper">
-      <img class="about-img" src="../assets/images/about_1.jpg" alt="">
-      <div class="about-text">
-      <h1>Create interactive prototypes</h1>
-      <p class="u-p">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae aliquid, animi eos accusamus vel fuga unde
-        soluta, cumque dolorum quisquam tempore eveniet placeat, nulla assumenda rerum. Fuga quo at voluptatem.
-      </p>
-      <button class="u-button">More about us</button>
+    <div class="u-wrapper">
+      <h2 class="u-h2">
+        About Us
+      </h2>
 
-    </div>
+      <div class="download-grid">
+        <img class="about-img" src="../assets/images/about_1.jpg" alt="">
+      <div class="about-text">
+        <h1>Create interactive prototypes</h1>
+        <p class="u-p">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae aliquid, animi eos accusamus vel fuga
+          unde
+          soluta, cumque dolorum quisquam tempore eveniet placeat, nulla assumenda rerum. Fuga quo at voluptatem.
+        </p>
+        <button class="u-button">More about us</button>
+      </div>
+
+      </div>
     </div>
   </section>
 
+  <section class="download">
+    <div class="u-wrapper">
+      <h2 class="u-h2">
+        Testimonials
 
+      </h2>
+      <!-- item -->
+      <div class="download-grid">
+       <div class="swiper-container mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1
+
+          <img src="../assets/images/person_1.jpg" alt="">
+          
+          <h3 class="testimonial-content">
+            <div id="loading">loading...</div>
+            <div id="first_testimonial"></div>
+            <div id="first_person"></div>
+            
+          </div>
+          <div class="swiper-slide">Slide 2
+            <img src="../assets/images/person_2.jpg" alt="">
+            <div id="second_testimonial"></div>
+            <div id="second_person"></div>
+            
+          </div>
+          <div class="swiper-slide">Slide 3
+            <img src="../assets/images/person_3.jpg" alt="">
+            <div id="third_testimonial"></div>
+            <div id="third_person"></div>
+            
+        </div>
+        
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+      </div>
+    </div>
+  </section>
 
 
   <section class="download">
     <div class="u-wrapper">
       <h2 class="u-h2">
         Testimonials
-        <p class="u-p">
-          We’ve got more browsers in the pipeline. Please do let us know if you’ve
-          got a favourite you’d like us to prioritize.
-        </p>
-        <!-- item -->
-        <div class="download-grid">
-          <div class="download-item">
-            <img src="../assets/images/logo-chrome.svg" alt="">
-            <h3 class="u-h3">
-              Add to Chrome
-            </h3>
-            <p class="u-p">
-              Minimum version 62
-            </p>
-            <button class="u-button is-fullWidth">
-              Add & Install Extension
-            </button>
-          </div>
-          <!-- item -->
-          <div class="download-item">
 
-            <img class="testimonial-img" src="../assets/images/person_1.jpg" alt="">
-            <h3 class="testimonial-content">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat
-              fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores
-              excepturi earum unde iusto.
-            </h3>
+      </h2>
+      <!-- item -->
+      <div class="download-grid">
+        <div class="download-item">
+          <img src="../assets/images/logo-chrome.svg" alt="">
+          <h3 class="u-h3">
+            Add to Chrome
+          </h3>
+          <p class="u-p">
+            Minimum version 62
+          </p>
+          <button class="u-button is-fullWidth">
+            Add & Install Extension
+          </button>
+        </div>
+        <!-- item -->
+        <div class="download-item">
+
+          <img class="testimonial-img" src="../assets/images/person_1.jpg" alt="">
+
+          <div class="fetchData">
+            <h1>Todos</h1>
+
+          </div>
+          <!-- <h3 class="testimonial-content">
+            <div id="mensaje"></div>
+            <div id="loading">loading...</div>
+
+            <div id="user_name"></div> -->
+
             <p class="u-p">
               Kyle McDonald
             </p>
             <button class="u-button is-fullWidth">
               Add & Install Extension
             </button>
-          </div>
-          <!-- item -->
-          <div class="download-item">
-            <img src="../assets/images/logo-opera.svg" alt="">
-            <h3 class="u-h3">
-              Add to Opera
-            </h3>
-            <p class="u-p">
-              Minimum version 46
-            </p>
-            <button class="u-button is-fullWidth">
-              Add & Install Extension
-            </button>
-          </div>
         </div>
+        <!-- item -->
+        <div class="download-item">
+          <img src="../assets/images/logo-opera.svg" alt="">
+          <h3 class="u-h3">
+            Add to Opera
+          </h3>
+          <p class="u-p">
+            Minimum version 46
+          </p>
+          <button class="u-button is-fullWidth">
+            Add & Install Extension
+          </button>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -411,7 +463,10 @@
 
 
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
   <script src="api.js"></script>
+  <script src="carrusel.js"></script>
 </body>
 
 </html>
