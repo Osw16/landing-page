@@ -585,6 +585,15 @@ figure:before {
     outline: 0;
 }
 
+@media screen and (max-width: 600px) {
+    body {
+        width: 600px;
+    }
+    header {
+        width: 600px;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .carousel {
         border-top: 1px solid #e5e5e5;

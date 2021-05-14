@@ -30,7 +30,6 @@ var getUsers = function() {
         })
         .then(function(res) {
             if (res.status == 200) {
-
                 first_person.innerHTML = res.data[0].name
                 second_person.innerHTML = res.data[1].name
                 third_person.innerHTML = res.data[2].name
