@@ -1,3 +1,5 @@
+"use strict"
+
 var getPosts = function() {
     const POSTS_URL = 'https://jsonplaceholder.typicode.com/posts?_limit=3';
     loading.style.display = 'block';
@@ -9,9 +11,7 @@ var getPosts = function() {
                 first_testimonial.innerHTML = res.data[0].body;
                 second_testimonial.innerHTML = res.data[1].body;
                 third_testimonial.innerHTML = res.data[2].body;
-
             }
-            // console.log(res);
         })
         .catch(function(err) {
             console.log(err);
@@ -44,3 +44,15 @@ var getUsers = function() {
         });
 }
 getUsers()
+
+// Carrusel
+var swiper = new Swiper(".mySwiper", {
+    pagination: {
+        el: ".swiper-pagination",
+        type: "progressbar",
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});

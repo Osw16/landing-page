@@ -4,17 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- displays site properly based on user's device -->
-
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
     <link rel="stylesheet" href="css/styles.css">
-    <title>Landing page</title>
-
-
+    <title>Landing Page</title>
 </head>
 
 <body>
@@ -69,7 +63,7 @@
 
         <div class="u-wrapper">
             <div class="hero-grid">
-                <div class="hero-imageContainer">
+                <div class="hero-image-container">
                     <img class="hero-image" src="../assets/images/landing_1.png" alt="">
                 </div>
                 <div class="hero-content">
@@ -174,7 +168,6 @@
                         <img class="interactive-img" src="../assets/images/do_ui_kit_download_cta_floating_devices-2x.png" alt="">
                         <p class="u-p">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
-
                         </p>
                         <figure>Lorem ipsum dolor sit</figure>
                         <figure>Vivamus luctus eros aliquet</figure>
@@ -203,19 +196,16 @@
                         <figure>Vivamus luctus eros aliquet</figure>
                     </details>
                 </div>
-
             </div>
             <button class="u-button">More use cases</button>
         </div>
     </section>
-
 
     <section class="features about">
         <div class="u-wrapper">
             <h2 class="u-h2">
                 About Us
             </h2>
-
             <div class="download-grid">
                 <img class="about-img" src="../assets/images/about_1.jpg" alt="">
                 <div class="about-text">
@@ -229,15 +219,12 @@
             </div>
         </div>
     </section>
-
+    <!-- Carrusel fetching the data -->
     <section class="features testimonial">
         <div class="u-wrapper">
             <h2 class="u-h2">
                 Testimonials
-
             </h2>
-            <!-- item -->
-
             <div class="swiper-container mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -280,10 +267,10 @@
                 Get In Touch
             </h2>
             <form action="#" class="u-form">
+                <h2 class="form-title">Contact Form
 
-                <h2 class="form-title">Contact Form</h2>
-
-
+                    <span href="#" class="icon-wrap icon-chat_bubble_outline"></span>
+                </h2>
                 <div class="form-group">
                     <div class="input-control">
                         <label class="text-black" for="fname">First Name</label>
@@ -293,37 +280,29 @@
                         <input type="text" id="lname" class="form-control rounded-0">
                     </div>
                 </div>
-
                 <div class="form-group">
-
                     <div class="input-control">
                         <label class="text-black" for="email">Email</label>
                         <input type="email" id="email" class="form-control">
                     </div>
                 </div>
-
                 <div class="form-group">
-
-                    <div class="form-group">
+                    <div class="input-control">
                         <label class="text-black" for="subject">Subject</label>
                         <input type="subject" id="subject" class="form-control">
                     </div>
                 </div>
-
                 <div class="form-group">
-                    <div class="form-group">
+                    <div class="input-control">
                         <label class="text-black" for="message">Message</label>
                         <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your message or questions here please"></textarea>
                     </div>
                 </div>
-
                 <div class="form-group">
                     <div class="text-black">
                         <input type="submit" value="Send Message" class="u-button">
                     </div>
                 </div>
-
-
             </form>
         </div>
     </section>
@@ -339,22 +318,11 @@
     </footer>
 
 
-
-
-
-
-
-
-
-
-
-
-
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <script src="api.js"></script>
-    <script src="carrusel.js"></script>
+
 </body>
 
 </html>
