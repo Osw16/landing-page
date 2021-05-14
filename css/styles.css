@@ -586,22 +586,12 @@ figure:before {
 }
 
 @media screen and (max-width: 600px) {
-    body {
-        /* width: 600px; */
-        /* border: 1px solid tomato */
-    }
-    header {
-        /* width: 600px; */
-        /* border: 1px solid springgreen */
-    }
     .about-text {
-        /* border: 1px solid; */
         padding: 0px;
         width: 250px;
     }
     .about-img {
         padding: 0;
-        /* border: 1px solid; */
         width: 250px;
     }
     .u-form {
